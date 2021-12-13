@@ -27,7 +27,7 @@ p {
 }
 
 .bouton {
-    position: fixed;
+    position: static;
     bottom: 0;
     height: 65px;
     width: 100%;
