@@ -23,20 +23,19 @@
         <h2>Bienvenue ,</h2>
         <p>Vos parties sont listées ci-dessous. Continuez une partie ou commencez-en une nouvelle :</p>
         <div class="newgame">
-            <a href="#"><i class="fas fa-plus-square"> Ajouter une partie</i></a>
+            <a href="@Url.Action("Synopsis", "Jdr")"><i class="fas fa-plus-square"> Ajouter une partie</i></a>
         </div>
         <!-- <div class="savegame">
-            <a href="#"><i class="fas fa-save"> Partie 01</i></a>
-            <a href="#"><i class="fas fa-save"> Partie 02</i></a>
-        </div> -->
+        <a href="@Url.Action("", "")"><i class="fas fa-save"> Partie 01</i></a>
+        <a href="@Url.Action("", "")"><i class="fas fa-save"> Partie 02</i></a>
+    </div> -->
     </main>
 
     <footer>
         <nav class="bouton">
-            <a href="#"><i class="fas fa-cog"></i></a>
-            <a href="#"><i class="fas fa-home"></i></a>
-            <a href="#"><i class="fas fa-power-off"></i></a>
-
+            <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
+            <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
+            <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
         </nav>
     </footer>
 </body>
