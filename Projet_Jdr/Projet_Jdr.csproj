@@ -140,7 +140,9 @@
     <Content Include="Content\Parametres.css" />
     <Content Include="Content\Synopsis.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\bgc.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\MW2.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />

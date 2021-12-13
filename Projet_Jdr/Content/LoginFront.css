@@ -43,7 +43,7 @@ body .inputLogin {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(MW2.jpg);
+    background-image: url(/fonts/MW2.jpg);
     background-repeat: no-repeat;
 }
 
@@ -91,6 +91,6 @@ body .inputLogin {
     height: 350px;
     width: 100%;
     position: fixed;
-    background-image: url(bgc.jpg);
+    background-image: url(/fonts/bgc.jpg);
     background-repeat: no-repeat;
 }
