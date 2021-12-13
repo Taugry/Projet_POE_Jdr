@@ -1,0 +1,96 @@
+﻿
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
+
+h1 {
+    color: #29e943;
+    display: flex;
+    justify-content: center;
+    font-size: 600%;
+}
+
+hr {
+    border-color: #29e943;
+    border-width: 3px;
+    margin-left: 40%;
+}
+
+body .inputLogin {
+    display: block;
+}
+
+    body .inputLogin :nth-child(3) {
+        background-color: #587eee;
+        border-radius: 30px;
+        width: 600px;
+        height: 80px;
+    }
+
+    body .inputLogin :nth-child(1) {
+        color: azure;
+        font-size: 300%;
+    }
+
+.mainDiv {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(MW2.jpg);
+    background-repeat: no-repeat;
+}
+
+.foot :nth-child(1) {
+    border-radius: 30px;
+    width: 400px;
+    height: 95px;
+    background-color: #29e943;
+    align-items: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #665f61;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: xx-large;
+}
+
+.inscription {
+    color: white;
+    font-size: 300%;
+}
+
+.mainDiv :first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+.mouseHover:hover {
+    color: #29e943;
+}
+
+.image {
+    bottom: 0;
+    height: 350px;
+    width: 100%;
+    position: fixed;
+    background-image: url(bgc.jpg);
+    background-repeat: no-repeat;
+}

@@ -135,6 +135,8 @@
     <Content Include="Content\EndGame.css" />
     <Content Include="Content\Game.css" />
     <Content Include="Content\Index.css" />
+    <Content Include="Content\InscriptionLoginFront.css" />
+    <Content Include="Content\LoginFront.css" />
     <Content Include="Content\Parametres.css" />
     <Content Include="Content\Synopsis.css" />
     <Content Include="favicon.ico" />
@@ -174,11 +176,12 @@
     <Content Include="Views\Jdr\Synopsis.cshtml" />
     <Content Include="Views\Jdr\Game.cshtml" />
     <Content Include="Views\Jdr\EndGame.cshtml" />
+    <Content Include="Views\Connexion\LoginFront.cshtml" />
+    <Content Include="Views\Connexion\InscriptionLoginFront.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Connexion\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
