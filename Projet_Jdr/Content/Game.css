@@ -1,0 +1,66 @@
+﻿body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    border-bottom: yellow solid;
+}
+
+h2 {
+    background-color: rgb(236, 42, 236);
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+}
+
+.titrepartie {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .choix{
+            
+        } */
+
+.choix p {
+    color: white;
+    margin: auto;
+}
+
+h4 {
+    width: 20px;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin: auto;
+}

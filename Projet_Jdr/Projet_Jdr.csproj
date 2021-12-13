@@ -131,6 +131,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ConnecterHomePage.css" />
+    <Content Include="Content\EndGame.css" />
+    <Content Include="Content\Game.css" />
+    <Content Include="Content\Index.css" />
+    <Content Include="Content\Parametres.css" />
+    <Content Include="Content\Synopsis.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -162,10 +168,17 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Index\Index.cshtml" />
+    <Content Include="Views\Index\ConnecterHomePage.cshtml" />
+    <Content Include="Views\Index\Parametres.cshtml" />
+    <Content Include="Views\Jdr\Synopsis.cshtml" />
+    <Content Include="Views\Jdr\Game.cshtml" />
+    <Content Include="Views\Jdr\EndGame.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Connexion\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

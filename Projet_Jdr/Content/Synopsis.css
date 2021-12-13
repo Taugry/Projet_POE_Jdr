@@ -1,0 +1,56 @@
+﻿body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    border-bottom: yellow solid;
+}
+
+h2 {
+    background-color: rgb(236, 42, 236);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creategame {
+    background-color: yellow;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.justifyend {
+    display: flex;
+    justify-content: end;
+}

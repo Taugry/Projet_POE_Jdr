@@ -1,0 +1,40 @@
+﻿body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    border-bottom: yellow solid;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: grey;
+}
+
+
+
+.bouton {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: white;
+}

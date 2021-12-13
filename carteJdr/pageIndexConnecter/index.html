@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>HomePage</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            color: yellow;
+            border-bottom: yellow solid;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        p {
+            color: grey;
+        }
+
+        .newgame {
+            color: yellow;
+
+        }
+
+        .bouton {
+            
+            position: fixed;
+            bottom: 0;
+            height: 65px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        i {
+            color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PROJEKT</h1>
+    </header>
+    <main>
+        <h2>Bienvenue ,</h2>
+        <p>Vos parties sont listées ci-dessous. Continuez une partie ou commencez-en une nouvelle :</p>
+        <div class="newgame">
+            <a href="#"><i class="fas fa-plus-square"> Ajouter une partie</i></a>
+           
+        </div>
+    </main>
+
+    <footer>
+        <nav class="bouton">
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <a href="#"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-power-off"></i></a>
+            
+        </nav>
+    </footer>
+</body>
+
+</html>

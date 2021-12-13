@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>HomePage</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            color: yellow;
+            border-bottom: yellow solid;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        p {
+            color: grey;
+        }
+
+        
+
+        .bouton {
+            
+            position: fixed;
+            bottom: 0;
+            height: 65px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        i {
+            color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        label{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PROJEKT</h1>
+    </header>
+    <main>
+        <h2>Paramètres</h2>
+        <p>Vous pouvez ici changer les paramètres de votre compte.</p>
+        <div>
+            <input type="checkbox" name="param1" id="param1">
+            <label for="param1">Paramètre 01</label>
+            <p>Permet d'augmenter la taille d'écriture</p>
+        </div>
+        <div>
+            <input type="checkbox" name="param2" id="param2">
+            <label for="param2">Paramètre 02</label>
+            <p>Permet d'augmenter la taille d'écriture</p>
+        </div>
+        <div>
+            <input type="checkbox" name="param3" id="param3">
+            <label for="param3">Paramètre 03</label>
+            <p>Permet d'augmenter la taille d'écriture</p>
+        </div>
+        <div>
+            <input type="checkbox" name="param4" id="param4">
+            <label for="param4">Paramètre 04</label>
+            <p>Permet d'augmenter la taille d'écriture</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        <nav class="bouton">
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <a href="#"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-power-off"></i></a>
+            
+        </nav>
+    </footer>
+</body>
+
+</html>
