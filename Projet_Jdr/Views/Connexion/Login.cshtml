@@ -44,13 +44,11 @@
             <div class="foot">
                 <button>Se connecter</button>
                 <br />
-                <p class="mouseHover">Vous n'êtes pas inscrit.e ?</p>
-                <br />
-                <p class="mouseHover">S'inscrire</p>
+                @Html.ActionLink("Vous n'êtes pas inscrit.e ? -> S'inscrire", "Inscription", "Connexion", new { @class = "mouseHover" })
             </div>
         </div>
 
     </div>
-    <div class="image"></div>
+    <!--<div class="image"></div>-->
 </body>
 </html>
