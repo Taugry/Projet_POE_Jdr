@@ -6,19 +6,14 @@ using System.Web.Mvc;
 
 namespace Projet_Jdr.Controllers
 {
-    public class HomeController : Controller
+    public class ConnexionController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Login()
         {
             return View();
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
-
-        public ActionResult Contact()
+        public ActionResult Inscription()
         {
             return View();
         }

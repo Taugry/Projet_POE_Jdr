@@ -6,19 +6,19 @@ using System.Web.Mvc;
 
 namespace Projet_Jdr.Controllers
 {
-    public class HomeController : Controller
+    public class JdrController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Game()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult EndGame()
         {
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Synopsis()
         {
             return View();
         }
