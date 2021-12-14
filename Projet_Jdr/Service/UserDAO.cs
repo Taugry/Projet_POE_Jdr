@@ -11,9 +11,9 @@ namespace Projet_Jdr.Service
     {
         private MyContext db;
 
-        public UserDAO(MyContext db)
+        public UserDAO(MyContext context)
         {
-            this.db = db;
+            this.db = context;
         }
         public List<User> FindAll()
         {
