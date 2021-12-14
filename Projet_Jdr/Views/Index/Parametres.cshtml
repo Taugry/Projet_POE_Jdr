@@ -49,7 +49,16 @@
         <nav class="bouton">
             <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
             <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
-            <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+            @{
+                if (Session["username"] == null)
+                {
+                    <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Logout", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+            }
         </nav>
     </footer>
 </body>

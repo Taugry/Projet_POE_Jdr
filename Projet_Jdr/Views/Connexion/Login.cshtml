@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Projet_Jdr.Models.User
+@{
     Layout = null;
 }
 
@@ -16,39 +17,36 @@
         <h1>PROJEKT</h1>
         <hr />
     </header>
-    <div class="mainDiv">
-        <div>
-            <!--<div class="inscription">
-                <h2>S'inscrire</h2>
-                <p>S'inscrire vous permettra d'acceder aux jeux et sauvegarder votre partie.</p>
-            </div>-->
-            <div class="inputLogin">
-                <label for="pseudo">Adresse Mail</label>
-                <br />
-                <input type="text" name="pseudo" id="pseudo" />
-            </div>
-            <div class="inputLogin">
-                <label for="Password">Mot de passe</label>
-                <br />
 
-                <input type="text" name="Password" id="Password" />
-            </div>
+    @using (Html.BeginForm("CheckLogin", "Connexion", FormMethod.Post))
+     {
+        @Html.AntiForgeryToken()
 
-            <!--<div class="inputLogin">
-                <label for="ConfirmPassword">Confirmation de mot de passe</label>
-                <br />
+        <div class="mainDiv">
+            <div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="inputLogin">
+                    @Html.LabelFor(model => model.Email)
+                    <br />
+                    @Html.EditorFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
 
-                <input type="text" name="ConfirmPassword" id="ConfirmPassword" />
-            </div>-->
+                <div class="inputLogin">
+                    @Html.LabelFor(model => model.Password)
+                    <br />
+                    @Html.EditorFor(model => model.Password)
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
 
-            <div class="foot">
-                <button>Se connecter</button>
-                <br />
-                @Html.ActionLink("Vous n'êtes pas inscrit.e ? -> S'inscrire", "Inscription", "Connexion", new { @class = "mouseHover" })
+                <div class="foot">
+                    <input type="submit" value="Se Connecter" class="button" />
+                    <br />
+                    @Html.ActionLink("Vous n'êtes pas inscrit.e ? -> S'inscrire", "Inscription", "Connexion", new { @class = "mouseHover" })
+                </div>
             </div>
         </div>
-
-    </div>
+     }
     <!--<div class="image"></div>-->
 </body>
 </html>

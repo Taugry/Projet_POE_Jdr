@@ -1,5 +1,11 @@
-﻿@{
+﻿@model Projet_Jdr.Models.User
+@{
     Layout = null;
+    string name = null; ;
+    if (Session["username"] != null)
+    {
+        name = Session["username"].ToString();
+    }
 }
 
 <!DOCTYPE html>
@@ -20,7 +26,9 @@
         <h1>PROJEKT</h1>
     </header>
     <main>
-        <h2>Bienvenue ,</h2>
+        <h2>
+            Bienvenue, @name
+        </h2>
         <p>Vos parties sont listées ci-dessous. Continuez une partie ou commencez-en une nouvelle :</p>
         <div class="newgame">
             <a href="@Url.Action("Synopsis", "Jdr")"><i class="fas fa-plus-square"> Ajouter une partie</i></a>
@@ -35,7 +43,17 @@
         <nav class="bouton">
             <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
             <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
-            <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+            @{
+                if (Session["username"] == null)
+                {
+                    <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Logout", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+            }
+
         </nav>
     </footer>
 </body>
