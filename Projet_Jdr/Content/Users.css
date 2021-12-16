@@ -1,0 +1,104 @@
+﻿body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    border-bottom: yellow solid;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: grey;
+}
+
+.newgame {
+    color: yellow;
+}
+
+.bouton1 {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.savegame {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    color: white;
+    border-color: white;
+    min-width: 900px;
+    max-height: 900px;
+    text-align: center;
+    
+}
+
+table td, table th {
+        border: 1px solid white;
+}
+div{
+    text-align:center;
+}
+
+label {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+.inputLogin {
+    display: block;
+    background-color: #587eee;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    color: azure;
+    font-size: 150%;
+    text-align: center;
+}
+
+.inscription {
+    color: white;
+    font-size: 300%;
+    font-family: sans-serif;
+    font-style: italic;
+    background-repeat: no-repeat;
+}
+
+.footOk {
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #29e943;
+    align-items: center;
+    font-size: 200%
+}
+
+.footNotOk {
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    align-items: center;
+    font-size: 200%
+}
