@@ -25,7 +25,6 @@ namespace Projet_Jdr.Migrations
             Sql("INSERT INTO Tokens(Name,Status,value) Values('indice_05','false',0)");
             Sql("INSERT INTO Tokens(Name,Status,value) Values('Arme','false',0)");
             Sql("INSERT INTO Tokens(Name,Status,value) Values('avancer','false',0)");
-            Sql("INSERT INTO Users(Id,Username,Email,Password,Admin,SavedGame) Values(999,'Admin','admin@admin.com','admin',1,NULL)");
         }
         
         public override void Down()
