@@ -171,6 +171,16 @@
     <Content Include="Content\Parametres.css" />
     <Content Include="Content\Synopsis.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Files\Fin\F5.html" />
+    <Content Include="Files\Fin\F4.html" />
+    <Content Include="Files\Fin\F3.html" />
+    <Content Include="Files\Fin\F2.html" />
+    <Content Include="Files\Fin\F1.txt" />
+    <Content Include="Files\Fin\F5.txt" />
+    <Content Include="Files\Fin\F4.txt" />
+    <Content Include="Files\Fin\F3.txt" />
+    <Content Include="Files\Fin\F2.txt" />
+    <Content Include="Files\Fin\F1.html" />
     <Content Include="fonts\bgc.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\MW2.jpg" />
@@ -215,6 +225,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\Choix\" />
+    <Folder Include="Files\Events\" />
+    <Folder Include="Files\Img\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
