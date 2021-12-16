@@ -9,6 +9,5 @@ namespace Projet_Jdr.Models
     {
         public int Id { get; set; }
         public string Save { get; set; }
-        public string Tokens { get; set; }
     }
 }

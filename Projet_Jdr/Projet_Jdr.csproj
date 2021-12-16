@@ -140,6 +140,11 @@
     <Compile Include="Migrations\202112161024155_AddTokenGameModel.Designer.cs">
       <DependentUpon>202112161024155_AddTokenGameModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112161325046_AjoutEntityToken.cs" />
+    <Compile Include="Migrations\202112161325046_AjoutEntityToken.Designer.cs">
+      <DependentUpon>202112161325046_AjoutEntityToken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Service\GameDAO.cs" />
     <Compile Include="DAO\IGameDAO.cs" />
     <Compile Include="DAO\IUserDAO.cs" />
@@ -248,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112161024155_AddTokenGameModel.resx">
       <DependentUpon>202112161024155_AddTokenGameModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112161325046_AjoutEntityToken.resx">
+      <DependentUpon>202112161325046_AjoutEntityToken.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

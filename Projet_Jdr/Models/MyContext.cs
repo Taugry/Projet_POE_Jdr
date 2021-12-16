@@ -22,6 +22,7 @@ namespace Projet_Jdr.Models
 
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Game> Games { get; set; }
+        public virtual DbSet<Token> Tokens { get; set; }
 
     }
 
