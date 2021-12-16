@@ -30,6 +30,10 @@ body .inputLogin {
     display: block;
 }
 
+body input {
+    font-size: 40px;
+}
+
 body .inputLogin :nth-child(3) {
     background-color: #587eee;
     border-radius: 30px;
