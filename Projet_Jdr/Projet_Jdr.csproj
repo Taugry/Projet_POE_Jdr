@@ -144,6 +144,10 @@
     <Compile Include="Migrations\202112161325046_AjoutEntityToken.Designer.cs">
       <DependentUpon>202112161325046_AjoutEntityToken.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112161418083_testfixpbcobddcodefirst.cs" />
+    <Compile Include="Migrations\202112161418083_testfixpbcobddcodefirst.Designer.cs">
+      <DependentUpon>202112161418083_testfixpbcobddcodefirst.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Token.cs" />
     <Compile Include="Service\GameDAO.cs" />
     <Compile Include="DAO\IGameDAO.cs" />
@@ -256,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112161325046_AjoutEntityToken.resx">
       <DependentUpon>202112161325046_AjoutEntityToken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112161418083_testfixpbcobddcodefirst.resx">
+      <DependentUpon>202112161418083_testfixpbcobddcodefirst.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
