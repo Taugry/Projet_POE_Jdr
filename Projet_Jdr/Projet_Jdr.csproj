@@ -136,6 +136,10 @@
     <Compile Include="Controllers\JdrController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Migrations\202112161024155_AddTokenGameModel.cs" />
+    <Compile Include="Migrations\202112161024155_AddTokenGameModel.Designer.cs">
+      <DependentUpon>202112161024155_AddTokenGameModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Service\GameDAO.cs" />
     <Compile Include="DAO\IGameDAO.cs" />
     <Compile Include="DAO\IUserDAO.cs" />
@@ -228,6 +232,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112140954273_InitialModel.resx">
       <DependentUpon>202112140954273_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112161024155_AddTokenGameModel.resx">
+      <DependentUpon>202112161024155_AddTokenGameModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
