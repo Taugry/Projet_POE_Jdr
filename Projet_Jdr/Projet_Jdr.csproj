@@ -226,7 +226,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Files\Choix\" />
-    <Folder Include="Files\Events\" />
+    <Folder Include="Files\Event\" />
     <Folder Include="Files\Img\" />
   </ItemGroup>
   <ItemGroup>
