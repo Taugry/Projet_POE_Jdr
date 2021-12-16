@@ -31,17 +31,17 @@ body input {
     font-size: 40px;
 }
 
-    body .inputLogin :nth-child(3) {
-        background-color: #587eee;
-        border-radius: 30px;
-        width: 600px;
-        height: 80px;
-    }
+body .inputLogin :nth-child(3) {
+    background-color: #587eee;
+    border-radius: 30px;
+    width: 600px;
+    height: 80px;
+}
 
-    body .inputLogin :nth-child(1) {
-        color: azure;
-        font-size: 300%;
-    }
+body .inputLogin :nth-child(1) {
+    color: azure;
+    font-size: 300%;
+}
 
 .mainDiv {
     height: 100%;
