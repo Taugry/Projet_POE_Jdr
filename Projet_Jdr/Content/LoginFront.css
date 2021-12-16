@@ -50,6 +50,8 @@ body input {
     align-items: center;
     background-image: url(/fonts/MW2.jpg);
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-style: italic;
 }
 
 .foot :nth-child(1) {
@@ -71,10 +73,23 @@ body input {
     margin-top: 80px;
     font-size: xx-large;
 }
+.foot :last-child {
+    color: white;
+    text-decoration:none;
+}
 
 .inscription {
     color: white;
     font-size: 300%;
+
+}
+
+input {
+    display: block;
+}
+span {
+    color: red;
+    font-size: 200%;
 }
 
 .mainDiv :first-child {
@@ -91,11 +106,4 @@ body input {
     color: #29e943;
 }
 
-.image {
-    bottom: 0;
-    height: 350px;
-    width: 100%;
-    position: fixed;
-    background-image: url(/fonts/bgc.jpg);
-    background-repeat: no-repeat;
-}
+
