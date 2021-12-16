@@ -24,6 +24,11 @@ hr {
 
 body .inputLogin {
     display: block;
+    
+}
+
+body input {
+    font-size: 40px;
 }
 
     body .inputLogin :nth-child(3) {
