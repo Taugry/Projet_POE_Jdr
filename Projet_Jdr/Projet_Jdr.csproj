@@ -176,6 +176,8 @@
     <Content Include="Content\ConnecterHomePage.css" />
     <Content Include="Content\EndGame.css" />
     <Content Include="Content\Game.css" />
+    <Content Include="Content\Image\Night-Road.jpg" />
+    <Content Include="Content\Image\otage.jpg" />
     <Content Include="Content\Index.css" />
     <Content Include="Content\InscriptionLoginFront.css" />
     <Content Include="Content\LoginFront.css" />
