@@ -1,0 +1,66 @@
+﻿{
+  "scenes": 
+  [
+    [
+      {
+        "descriptions": [
+          "<p>Vous avez \u00E9t\u00E9 appel\u00E9 \u00E0 l\u2019aide par la police de Detroit. Le dossier : un andro\u00EFde de service se serait attaqu\u00E9 \u00E0 l\u2019enfant de la famille qu\u2019il servait. Vous devez faire office de n\u00E9gociateur.</p><p>Mais vous \u00EAtes, vous aussi, un andro\u00EFde. L\u2019andro\u00EFde RK800, surnomm\u00E9 \u201CConnor\u201D.</p><p>Unique en votre genre, les robots dits \u201Cd\u00E9viants\u201D sont votre sp\u00E9cialit\u00E9.</p><p>Votre mission est d\u2019arr\u00EAter l\u2019andro\u00EFde, sauver l\u2019enfant et ce, avec le moins de perte possible. Vous devez vous en tenir \u00E0 votre mission, et votre mission seulement.</p>",
+          "<p>Vous arrivez \u00E0 l\u2019\u00E9tage 70 de l\u2019immeuble. \u00C0 peine entr\u00E9, un agent de la police interpelle sa radio pour signaler votre pr\u00E9sence. </p><p>- <b>Le n\u00E9gociateur est l\u00E0. Je r\u00E9p\u00E8te, le n\u00E9gociateur est l\u00E0.</b></p><p>La tension est palpable et les signes de lutte sont d\u00E9j\u00E0 \u00E9vidents. Des poteries ont \u00E9t\u00E9 cass\u00E9es, une vitre bris\u00E9e. \u00C0 proximit\u00E9, vous d\u00E9couvrez un cadre photo. En l\u2019examinant, votre programme interne enregistre les identit\u00E9s de la famille :</p>",
+          "<p>- <b>N-Non, je\u2026 je peux pas la laisser comme \u00E7a !</b></p><p>Pr\u00E8s de l\u2019entr\u00E9e du salon, alors que vous commencez \u00E0 percevoir la voix apeur\u00E9e d\u2019une femme, vous remarquez qu\u2019un aquarium a \u00E9t\u00E9 partiellement bris\u00E9 par des balles. Au sol, parmi les d\u00E9bris de verre, un poisson agonise.</p>"
+        ],
+        "analyses": [
+          "<div class=\"analyse\"><p class=\"title\">P\u00E8re de famille :</p><p>Phillips, John</p><p>N\u00E9 le 11\/10\/1999</p><p>R\u00E9side \u00E0 : 1554 Park Av., Detroit</p><p class=\"title\">M\u00E8re de famille :</p><p>Phillips, Caroline</p><p>N\u00E9e le 23\/05\/2001</p><p>R\u00E9side \u00E0 : 1554 Park Av., Detroit</p><p class=\"title\">Enfant :</p><p>Phillips, Emma</p><p>N\u00E9e le 02\/09\/2028</p><p>R\u00E9side \u00E0 : 1554 Park Av., Detroit</p></div>"
+        ],
+        "choix": [
+          {
+            "description": "<p>Vous sauvez le poisson en le remettant dans son aquarium.</p>",
+            "reponse": "<p>Vous r\u00E9cup\u00E9rez le poisson que vous replongez dans son aquarium.</p><p>Votre mission n\u2019est pas encore accomplie, mais vous avez d\u00E9j\u00E0 sauv\u00E9 une vie.</p>",
+            "software": true
+          },
+          {
+            "description": "<p>Vous continuez votre chemin.</p>"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "descriptions": [
+          "<p>Vous vous dirigez vers le salon mais une femme \u00E9plor\u00E9e vous arr\u00EAte en s\u2019accrochant \u00E0 vos v\u00EAtements :</p><p>- <b>Je vous en prie, vous devez sauver ma petite f\u2026</b></p><p>Elle s\u2019arr\u00EAte pour mieux vous regarder. En d\u00E9couvrant la diode sur votre tempe, son visage change en celui du d\u00E9sespoir :</p><p>- <b>Attendez\u2026 Vous envoyez un andro\u00EFde ?</b></p><p>Le policier qui l\u2019accompagnait l\u2019attrape par le poignet pour l\u2019embarquer en direction de l\u2019ascenseur.</b></p><p>- <b>Madame, vous ne pouvez pas rester l\u00E0.</b></p><p>- <b>Vous ne\u2026 Vous ne pouvez pas faire \u00E7a ! Vous \u00EA-- Pourquoi vous n\u2019envoyez pas une vraie personne ?! Eloignez ce truc de ma fille ! Ne laissez pas ce truc s\u2019approcher d\u2019elle ! ELOIGNEZ-LE !</b></p>",
+          "<p>Le salon est un v\u00E9ritable champ de bataille. Des policiers surarm\u00E9s, en armure, suivent des tactiques pour s\u2019approcher de la baie vitr\u00E9e qui donne sur le toit, o\u00F9 se trouve le d\u00E9viant. Une voix s\u2019exclame au loin :</p><p>- <b>Pourquoi on perd notre temps en envoyant un andro\u00EFde pour n\u00E9gocier ?! Cette enflure pourrait sauter du toit \u00E0 tout moment !</b></p><p>En vous approchant de l\u2019origine, dans la chambre parentale, vous vous rendez compte que cette voix n\u2019appartient \u00E0 nul autre que le Capitaine Allen, qui se trouve actuellement au t\u00E9l\u00E9phone.</p><p>- <b>J\u2019EN AI RIEN \u00C0 FOUTRE ! Mes hommes sont pr\u00EAts \u00E0 intervenir\u2026 Donnez-en l\u2019ordre !</b></p><p>Il raccroche en pestant. Vous vous pr\u00E9sentez \u00E0 lui :</p><p>- <b>Capitaine Allen ? Je m\u2019appelle Connor. Je suis l\u2019andro\u00EFde envoy\u00E9 par CyberLife.</b></p><p>Un silence agac\u00E9 vous accueille, avant qu\u2019enfin le capitaine ne daigne vous adresser la parole : </p><p>- <b>Cet andro\u00EFde tire sur tout ce qui bouge. Il a d\u00E9j\u00E0 descendu deux de mes hommes. On pourrait facilement l\u2019avoir, mais ils se trouvent sur le bord du balcon. Si ce truc tombe, elle tombe aussi.</b></p>",
+          "<p>Vous voulez \u00E9voquer le :</p>"
+        ],
+        "analyses": [],
+        "choix": [
+          {
+            "description": "<p>Comportement du d\u00E9viant.</p>",
+            "reponse": "<p>- <b>Est-ce que vous savez s\u2019il a eu un comportement \u00E9trange auparavant ?</b></p><p>- <b>Aucune id\u00E9e. Est-ce que c\u2019est important ?</b></p><p>- <b>J\u2019ai besoin d\u2019informations pour d\u00E9terminer la meilleure approche.</b></p>"
+          },
+          {
+            "description": "<p>Nom du d\u00E9viant</p>",
+            "reponse": "<p>- <b>Vous connaissez son nom ?</b></p><p>- <b>Aucune id\u00E9e. Est-ce que c\u2019est important ?</b></p><p>- <b>J\u2019ai besoin d\u2019informations pour d\u00E9terminer la meilleure approche.</b></p>"
+          },
+          {
+            "description": "<p>Choc \u00E9motionnel.</p>",
+            "reponse": "<p>- <b>Est-ce qu\u2019il a fait l\u2019exp\u00E9rience d\u2019un choc \u00E9motionnel r\u00E9cemment ?</b></p><p>- <b>Aucune id\u00E9e. Est-ce que c\u2019est important ?</b></p><p>- <b>J\u2019ai besoin d\u2019informations pour d\u00E9terminer la meilleure approche.</b></p>"
+          },
+          {
+            "description": "<p>Code de d\u00E9sactivation.</p>",
+            "reponse": "<p>- <b>Avez-vous essay\u00E9 son code de d\u00E9sactivation ?</b></p><p>- <b>C\u2019est la premi\u00E8re chose qu\u2019on a fait.</b></p>"
+          }
+        ],
+        "missions": [
+          "<p class=\"mission\">Trouver le capitaine Allen.</p>"
+        ]
+      }
+    ],
+    [
+      {
+        "descriptions": [
+          "<div class=\"dlc\"><p>Vous devez acheter le DLC 'Plus de temps' pour continuer cette histoire. Seulement 99€99 du 17 Décembre au 24 Décembre !</p></div>"
+        ]
+      }
+    ]
+  ]
+  
+}
