@@ -15,11 +15,10 @@
 <body>
     <header>
         <h1>PROJEKT</h1>
-        <hr />
     </header>
 
     @using (Html.BeginForm("CheckLogin", "Connexion", FormMethod.Post))
-     {
+    {
         @Html.AntiForgeryToken()
 
         <div class="mainDiv">
@@ -46,7 +45,7 @@
                 </div>
             </div>
         </div>
-     }
+    }
     <!--<div class="image"></div>-->
 </body>
 </html>
