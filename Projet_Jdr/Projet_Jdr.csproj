@@ -45,10 +45,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PresentationFramework" />
@@ -136,6 +136,8 @@
     <Compile Include="Controllers\JdrController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Filters\AuthorisationFilter.cs" />
     <Compile Include="Migrations\202112161024155_AddTokenGameModel.cs" />
     <Compile Include="Migrations\202112161024155_AddTokenGameModel.Designer.cs">
       <DependentUpon>202112161024155_AddTokenGameModel.cs</DependentUpon>
@@ -178,6 +180,7 @@
     <Content Include="Content\InscriptionLoginFront.css" />
     <Content Include="Content\LoginFront.css" />
     <Content Include="Content\Parametres.css" />
+    <Content Include="Content\Users.css" />
     <Content Include="Content\Synopsis.css" />
     <Content Include="favicon.ico" />
     <Content Include="Files\Fin\F5.html" />
@@ -190,6 +193,8 @@
     <Content Include="Files\Fin\F3.txt" />
     <Content Include="Files\Fin\F2.txt" />
     <Content Include="Files\Fin\F1.html" />
+    <Content Include="Files\Img\details.png" />
+    <Content Include="Files\Img\stop.png" />
     <Content Include="fonts\bgc.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\MW2.jpg" />
@@ -221,9 +226,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Index\Index.cshtml" />
     <Content Include="Views\Index\ConnecterHomePage.cshtml" />
     <Content Include="Views\Index\Parametres.cshtml" />
@@ -233,12 +235,16 @@
     <Content Include="Views\Connexion\Login.cshtml" />
     <Content Include="Views\Connexion\Inscription.cshtml" />
     <Content Include="Views\Connexion\Authorisation.cshtml" />
+    <Content Include="Views\Users\Create.cshtml" />
+    <Content Include="Views\Users\Delete.cshtml" />
+    <Content Include="Views\Users\Details.cshtml" />
+    <Content Include="Views\Users\Edit.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Files\Choix\" />
     <Folder Include="Files\Event\" />
-    <Folder Include="Files\Img\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

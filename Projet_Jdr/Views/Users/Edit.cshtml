@@ -1,0 +1,105 @@
+﻿@model Projet_Jdr.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Content/Users.css">
+    <title>Gestion dse Utilisateurs</title>
+</head>
+
+<body>
+    <header>
+        <h1>PROJEKT</h1>
+    </header>
+    <main>
+        <h2>Edit</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div>
+                <h4>User</h4>
+                <hr />             
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.Id)
+                <div>
+                    @Html.LabelFor(model => model.Username, new { @class = "label" })
+                    <br/>
+                    @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "inputLogin" } })
+                    @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                </div>
+                <br />
+
+                <div>
+                    @Html.LabelFor(model => model.Email, new { @class = "label" })
+                    <br/>
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "inputLogin" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+                <br />
+
+
+                <div>
+                    @Html.LabelFor(model => model.Password, new { @class = "label" })
+                    <br/>
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "inputLogin" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+                <br />
+
+                <div>
+                    @Html.LabelFor(model => model.Admin, new { @class = "label" })
+                    <div class="checkbox">
+                        @Html.EditorFor(model => model.Admin, new { htmlAttributes = new { @class = "inputLogin" } })
+                        @Html.ValidationMessageFor(model => model.Admin, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SavedGame, new { @class = "label" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SavedGame, new { htmlAttributes = new { @class = "inputLogin" } })
+                        @Html.ValidationMessageFor(model => model.SavedGame, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <br />
+                
+                <input type="submit" value="Valider" class="footOk" />
+                
+            </div>
+         }
+    </main>
+
+    <footer>
+        <nav class="bouton1">
+            <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
+            <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
+            <a href="@Url.Action("Index", "Users")"><i class="fas fa-user-shield"></i></a>
+            @{
+                if (Session["username"] == null)
+                {
+                    <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Logout", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+            }
+        </nav>
+    </footer>
+</body>
+
+</html>

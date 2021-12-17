@@ -39,6 +39,7 @@
         <nav class="bouton">
             <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
             <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
+            <a href="@Url.Action("Index", "Users")"><i class="fas fa-user-shield"></i></a>
             @{
                 if (Session["username"] == null)
                 {

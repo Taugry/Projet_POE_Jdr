@@ -1,7 +1,54 @@
-﻿
+﻿@model Projet_Jdr.Models.User
 @{
-    ViewBag.Title = "Authorisation";
+    Layout = null;
+    string name = null; ;
+    if (Session["username"] != null)
+    {
+        name = Session["username"].ToString();
+    }
 }
 
-<h1>Erreur</h1>
-<h2>Vous n'avez laccès a cette ressource</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Content/ConnecterHomePage.css">
+    <title>Auhtorisation</title>
+</head>
+
+<body>
+    <header>
+        <h1>PROJEKT</h1>
+    </header>
+    <main style="text-align:center">
+        <h2>Erreur @name</h2>
+        <h2>Vous n'avez pas accès a cette Option</h2>
+        <img src="~/Files/Img/stop.png" alt="STOP">
+    </main>
+
+    <footer>
+        <nav class="bouton">
+            <a href="@Url.Action("Parametres", "Index")"><i class="fas fa-cog"></i></a>
+            <a href="@Url.Action("ConnecterHomePage", "Index")"><i class="fas fa-home"></i></a>
+            <a href="@Url.Action("Index", "Users")"><i class="fas fa-user-shield"></i></a>
+            @{
+                if (Session["username"] == null)
+                {
+                    <a href="@Url.Action("Login", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Logout", "Connexion")"><i class="fas fa-power-off"></i></a>
+                }
+            }
+        </nav>
+    </footer>
+</body>
+
+</html>
+
